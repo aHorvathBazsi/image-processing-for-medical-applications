@@ -1,5 +1,8 @@
-from skinburnsegmentation.data_preprocessing.transforms import (
-    get_image_transform, get_label_transform)
+from skinburnsegmentation.data_handling.transforms import (
+    get_image_transform,
+    get_label_transform
+)
+from skinburnsegmentation.constants import CLASS_NAME_ID_MAP
 
 
 def test_get_image_transform_gets_train_transform():
